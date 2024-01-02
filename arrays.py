@@ -25,6 +25,22 @@ print(my_array1)
 my_array1.insert(0,10)
 print(my_array1)
 
+def traversalArray(array):
+    for i in array:
+        print(i)
+
+# traversalArray(my_array1)
+
+def acessArray(array,index):
+    if(index>=len(array)):
+        print("array index not present")
+    else:
+        print(array[index])
+
+acessArray(my_array1,7)
+
+     
+
 
 
 
