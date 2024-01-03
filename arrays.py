@@ -29,7 +29,7 @@ def traversalArray(array):
     for i in array:
         print(i)
 
-# traversalArray(my_array1)
+traversalArray(my_array1)
 
 def acessArray(array,index):
     if(index>=len(array)):
@@ -38,6 +38,21 @@ def acessArray(array,index):
         print(array[index])
 
 acessArray(my_array1,7)
+
+
+def linear_search(array,target):
+    for i in range(len(array)):
+        if(array[i]==target):
+            return i+1
+    return -1
+
+
+print(linear_search(my_array1,56))
+
+
+my_array1.remove(56)
+
+print(my_array1)
 
      
 
